@@ -7,6 +7,18 @@ import swing.Action
 import javax.swing._
 
 class MenuFactory{
+	def createPopup():PopupMenu={
+		val popupMenu = new PopupMenu		
+		val item = new MenuItem(Action("Hello"){
+//			def apply={println "HOGEHOGE"}
+		})
+		val item2 = new MenuItem(Action("Hello2"){
+//			def apply={println "HOGEHOGE"}
+		})
+		popupMenu.add(item)
+		popupMenu.add(item2)
+		popupMenu
+	}
 	/**
 	*/
 	def createMenu(frame:Frame)={
@@ -17,7 +29,7 @@ class MenuFactory{
 		val menuBar:MenuBar = new MenuBar()
 		val fileMenu = new Menu("File(F)"){ mnemonic = Key.F }
 		val newItem = new MenuItem(Action("New(N)"){println("New")}){mnemonic = Key.N}
-		val quitItem = new MenuItem(Action("Quit()Q"){println("Quit");frame.dispose}){mnemonic = Key.Q}
+		val quitItem = new MenuItem(Action("Quit(Q)"){println("Quit");frame.dispose}){mnemonic = Key.Q}
 		fileMenu.contents += newItem
 		fileMenu.contents += quitItem
 		val toolMenu = new Menu("Tool(T)"){mnemonic = Key.T }
