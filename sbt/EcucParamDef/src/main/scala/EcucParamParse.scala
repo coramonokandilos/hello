@@ -8,11 +8,19 @@ import scalax.file.Path
 import scalax.io.Resource
 
 /** */
-class EcucParamParse(res:Path) extends Application{
+class EcucParamParse(res:Path) {
 	val resource =res
 
+	def parseParamDef(elem:Node):Unit={
+		for (bs <- elem \\ "MODULE-DEF" ){
+			for( <SHORT-NAME>{h}</SHORT-NAME> <- bs.child  ){
+				parseModule(bs,0)
+			}
+		}
+	}
     /** */
     def parseModule(elem:Node,depth:Int):Unit={
+		
         var param = new Param()
         for( bs <- elem.child ){
             bs match{
@@ -93,43 +101,4 @@ class EcucParamParse(res:Path) extends Application{
     }
 
 }
-
-class Param(){
-    var name:String=""
-    var paramType:String=""
-    var lower:String=""
-    var upper:String=""
-    var refpath:String=""
-    var desc:String=""
-	var inputRange:String=""
-	var origin:String=""
-	var maxValue:String=""
-	var minValue:String=""
-
-    override def toString():String={
-        name+":"+paramType+":"+lower+":"+upper+":"+refpath
-    }
-
-    def dump(depth:Int,res:Path):Unit={
-        if(paramType!="#PCDATA"){
-            if(paramType==""){
-            //container
-			desc = desc.replaceAll("(\r)+\n"," ")
-			desc = desc.replaceAll("\n"," ")
-			desc = desc.trim()
-			val line = "\t"*depth+name+"\t"*(10-depth)+paramType+"\t"+lower+"\t"+upper+"\t"+refpath+desc.replaceAll("(\r)\n","")+"\t"+inputRange+"\t"+origin+"\n"
-			res.append(line)
-            }else{
-                //parameter
-			desc = desc.replaceAll("(\r)+\n"," ")
-			desc = desc.replaceAll("\n"," ")
-			desc = desc.trim()
-			 val line = "\t"*(10-depth-2)+name+"\t"*(10-depth)+paramType+"\t"+lower+"\t"+upper+"\t"+refpath+desc.replaceAll("(\r)\n","")+"\t"+inputRange+"\t"+origin+"\n"
-			res.append(line)
-            }
-//			println("["+desc)
-        }
-    }
-}
-
 

@@ -15,18 +15,15 @@ object App extends Application{
 
     /** */
     def run:Unit={
-    	val ecucParamDefPath="src/main/resources/AUTOSAR_EcucParamDef.arxml"
-		val resource = Path("EcucParamDef.log")
-		//val resource = Resource.fromFile("EcucParamDef.log")
-		resource.write("########\n")
         println("App Start")
+		val resource = Path("EcucParamDef.log")
+		resource.write("########\n")
+    	val ecucParamDefPath="src/main/resources/R4.0/AUTOSAR_MOD_ECUConfigurationParameters.arxml"
+    	//val ecucParamDefPath="src/main/resources/AUTOSAR_EcucParamDef.arxml"
+		//val resource = Resource.fromFile("EcucParamDef.log")
         val xml= parseXml(ecucParamDefPath)
-        for (bs <- xml \\ "MODULE-DEF" ){
-            for( <SHORT-NAME>{h}</SHORT-NAME> <- bs.child  )
-            {
-				(new EcucParamParse(resource)).parseModule(bs,0)
-            }
-      }
+		//(new EcucParamParse(resource)).parseParamDef(xml)
+		(new EcucParamParseR40(resource)).parseParamDef(xml)
         println("App End")
     }
 
