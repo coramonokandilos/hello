@@ -1,3 +1,4 @@
 sbt/*/target
 sbt/*/project
 eclipse/*/*/bin
+bin/**
