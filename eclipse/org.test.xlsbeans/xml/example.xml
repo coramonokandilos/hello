@@ -10,5 +10,18 @@
         <attribute name="type">@net.java.amateras.xlsbeans.annotation.LabelledCellType@Right</attribute>
       </annotation>
     </method>
+    <method name="setLastupdate">
+      <annotation name="net.java.amateras.xlsbeans.annotation.LabelledCell">
+        <attribute name="label">'LastUpdated'</attribute>
+        <attribute name="type">@net.java.amateras.xlsbeans.annotation.LabelledCellType@Right</attribute>
+      </annotation>
+    </method>
+    <method name="setRecords">
+      <annotation name="net.java.amateras.xlsbeans.annotation.HorizontalRecords">
+        <attribute name="tableLabel">'User Informations'</attribute>
+        <attribute name="recordClass">@net.java.amateras.xlsbeans.example.UserInformation@class</attribute>
+        <attribute name="terminal">@net.java.amateras.xlsbeans.annotation.RecordTerminal@Border</attribute>
+      </annotation>
+    </method>
   </class>
 </annotations>
