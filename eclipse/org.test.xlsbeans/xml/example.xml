@@ -23,5 +23,9 @@
         <attribute name="terminal">@net.java.amateras.xlsbeans.annotation.RecordTerminal@Border</attribute>
       </annotation>
     </method>
+    <method name="setSample">
+      <annotation name="net.java.amateras.xlsbeans.example.annotation.CustomAnnotation">
+      </annotation>
+    </method>
   </class>
 </annotations>

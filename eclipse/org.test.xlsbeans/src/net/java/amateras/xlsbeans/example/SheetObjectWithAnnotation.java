@@ -7,6 +7,7 @@ import net.java.amateras.xlsbeans.annotation.LabelledCell;
 import net.java.amateras.xlsbeans.annotation.LabelledCellType;
 import net.java.amateras.xlsbeans.annotation.RecordTerminal;
 import net.java.amateras.xlsbeans.annotation.Sheet;
+import net.java.amateras.xlsbeans.example.annotation.CustomAnnotation;
 
 @Sheet(name = "Users")
 public class SheetObjectWithAnnotation extends SheetObject {
@@ -16,6 +17,17 @@ public class SheetObjectWithAnnotation extends SheetObject {
 	private String lastupdate;
 
 	private List<UserInformation> records;
+
+	private String sample;
+
+	public String getSample() {
+		return sample;
+	}
+
+	@CustomAnnotation()
+	public void setSample(String sample) {
+		this.sample = sample;
+	}
 
 	@Override
 	@LabelledCell(label = "Title", type = LabelledCellType.Right)
@@ -39,11 +51,13 @@ public class SheetObjectWithAnnotation extends SheetObject {
 		this.lastupdate = lastupdate;
 	}
 
+	@Override
 	@HorizontalRecords(tableLabel = "User Informations", recordClass = UserInformation.class, terminal = RecordTerminal.Border)
 	public void setRecords(List<UserInformation> records) {
 		this.records = records;
 	}
 
+	@Override
 	public List<UserInformation> getRecords() {
 		return records;
 	}
