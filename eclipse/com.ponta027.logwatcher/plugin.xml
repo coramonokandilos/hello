@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.ponta027.logwatcher.actionSet1"
+            label="label"
+            visible="true">
+         <menu
+               id="com.ponta027.logwatcher.menu1"
+               label="開始(&amp;S)">
+            <separator
+                  name="com.ponta027.logwatcher.separator1">
+            </separator>
+         </menu>
+         <action
+               class="com.ponta027.logwatcher.action.LogWatchStart"
+               id="com.ponta027.logwatcher.action1"
+               label="ログ監視開始(&amp;S)"
+               style="toggle"
+               toolbarPath="sampleGroup2"
+               tooltip="Hello World">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="com.ponta027.logwatcher.preferences.SamplePreferencePage"
+            id="com.ponta027.logwatcher.preferences.SamplePreferencePage"
+            name="Sample Preferences">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.ponta027.logwatcher.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+</plugin>

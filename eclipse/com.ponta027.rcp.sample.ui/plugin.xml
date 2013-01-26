@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension-point id="splashExtension" name="Splash Extensions" schema="schema/splashExtension.exsd"/>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="com.ponta027.rcp.sample.ui"
+            name="Sample Category">
+      </category>
+      <view
+            category="com.ponta027.rcp.sample.ui"
+            class="com.ponta027.rcp.sample.ui.views.SampleView"
+            icon="icons/sample.gif"
+            id="com.ponta027.rcp.sample.ui.views.SampleView"
+            name="Sample View">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               id="com.ponta027.rcp.sample.ui.views.SampleView"
+               ratio="0.5"
+               relationship="right"
+               relative="org.eclipse.ui.views.TaskList">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.ponta027.rcp.sample.ui.actionSet1"
+            label="label">
+         <menu
+               id="com.ponta027.rcp.sample.ui.menu1"
+               label="label">
+         </menu>
+      </actionSet>
+      <actionSet
+            id="com.ponta027.rcp.sample.ui.actionSet"
+            label="Sample Action Set"
+            visible="true">
+         <menu
+               id="sampleMenu"
+               label="Sample &amp;Menu">
+            <separator
+                  name="sampleGroup">
+            </separator>
+         </menu>
+         <action
+               class="com.ponta027.rcp.sample.ui.actions.SampleAction"
+               icon="icons/sample.gif"
+               id="com.ponta027.rcp.sample.ui.actions.SampleAction"
+               label="&amp;Sample Action"
+               menubarPath="sampleMenu/sampleGroup"
+               toolbarPath="sampleGroup"
+               tooltip="Hello, Eclipse world">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.ponta027.rcp.sample.ui.Activator">
+      </startup>
+   </extension>
+   <extension
+         point="org.eclipse.ui.splashHandlers">
+      <splashHandler
+            class="com.ponta027.rcp.sample.ui.splashHandlers.ExtensibleSplashHandler"
+            id="com.ponta027.rcp.sample.ui.splashHandlers.extensible">
+      </splashHandler>
+      <splashHandlerProductBinding
+            productId="com.ponta027.rcp.sample.product"
+            splashId="com.ponta027.rcp.sample.ui.splashHandlers.extensible">
+      </splashHandlerProductBinding>
+   </extension>
+   <extension
+         point="com.ponta027.rcp.sample.ui.splashExtension">
+      <splashExtension
+            icon="icons/af.png"
+            id="af"
+            tooltip="Application Framework">
+      </splashExtension>
+      <splashExtension
+            icon="icons/embedded.png"
+            id="embedded"
+            tooltip="Embedded">
+      </splashExtension>
+      <splashExtension
+            icon="icons/enterprise.png"
+            id="enterprise"
+            tooltip="Enterprise">
+      </splashExtension>
+      <splashExtension
+            icon="icons/languages.png"
+            id="languages"
+            tooltip="Languages">
+      </splashExtension>
+      <splashExtension
+            icon="icons/rcp.png"
+            id="rcp"
+            tooltip="RCP">
+      </splashExtension>
+   </extension>
+
+</plugin>

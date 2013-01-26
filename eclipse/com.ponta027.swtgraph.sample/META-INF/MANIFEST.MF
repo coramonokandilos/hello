@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sample
+Bundle-SymbolicName: com.ponta027.swtgraph.sample
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.ponta027.swtgraph.sample
+Require-Bundle: org.eclipse.draw2d;bundle-version="3.7.0"
