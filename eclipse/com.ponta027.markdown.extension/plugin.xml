@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<!--
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.ponta027.markdown.extension.MarkDownEditorExtender"
+            contributorClass="winterwell.markdown.editors.ActionBarContributor"
+            extensions="txt,md"
+            id="com.ponta027.markdown.extension"
+            name="MarkDownEditor2">
+      </editor>
+   </extension>
+-->   
+   <extension
+         point="org.eclipse.ui.editors.documentProviders">
+      <provider
+            class="com.ponta027.markdown.extension.MarkDownDocumentProvider"
+            extensions="md"
+            id="com.ponta027.markdown.extension.provider"
+            inputTypes="winterwell.markdown.editors.MarkdownEditor">
+      </provider>
+   </extension>
+</plugin>

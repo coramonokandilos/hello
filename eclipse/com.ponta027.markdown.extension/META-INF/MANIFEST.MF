@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Extension
+Bundle-SymbolicName: com.ponta027.markdown.extension;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.ponta027.markdown.extension.Activator
+Bundle-Vendor: PONTA027
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ winterwell.markdown;bundle-version="0.2.3",
+ org.eclipse.jface.text;bundle-version="3.8.0",
+ org.eclipse.ui.editors;bundle-version="3.8.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

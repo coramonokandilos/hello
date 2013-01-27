@@ -1,0 +1,3 @@
+# Markdownテキストエディタの拡張プラグイン
+* DocumentProviderを用いて、保存時にMarkdownPreviewのupdateメソッドを実行しています。
+* MarkdownPreviewが表示されていない場合は表示します。
