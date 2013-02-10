@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     2013/01/29 1:11:59                                                        
+
+     project    
+     サンプル
+                   
+     kazuhiro                                                                
+     ====================================================================== -->
+<project name="project" default="default">
+    <description>
+            サンプル
+    </description>
+
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" depends="depends" description="サンプル">
+<!--
+        <taskdef name="mytask" classname="com.ponta027.antTask.ProjectCreateTask" classpath="bin/" />
+-->        
+        <taskdef name="mytask" classname="com.ponta027.antTask.pde.PdeProject" classpath="bin/" />
+    	<mytask description="" taskname="ProjectCreate" projectName="a1">
+    	</mytask>
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="depends">
+    </target>
+
+</project>
