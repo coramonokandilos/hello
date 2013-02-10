@@ -1,0 +1,28 @@
+grammar org.xtext.example.qdsl.QDsl with org.eclipse.xtext.common.Terminals
+
+generate qDsl "http://www.xtext.org/example/qdsl/QDsl"
+
+Model:
+	'questions' name=ID '{'
+		(questions+=Question)*
+	'}'
+	;
+	
+Question:
+	'questionItem' name=ID '{'
+		contens = questionContent
+		answerTypes = AnswerType
+		(chooseFroms=ChooseFrom)?
+	'}'
+;	
+questionContent:
+	'questionContent' qcontent=STRING
+;
+AnswerType:
+	'AnswerType' atype=('radio_button'|'check_box'|'free_text')
+;
+ChooseFrom:{ChooseFrom}
+	'chooseFrom' (choise +=STRING)*
+;
+Greeting:
+	'Hello' name=ID '!';

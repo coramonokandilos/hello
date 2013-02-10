@@ -1,0 +1,17 @@
+questions Test{
+	questionItem Question1 {
+		questionContent "what is this" 
+		AnswerType radio_button
+		chooseFrom "Choise0" "Choise1"
+	}
+	
+	questionItem Question2{
+		questionContent "how are you?"
+		AnswerType check_box
+		chooseFrom "Choise1" "Choise2" "Choise3"
+		
+	}
+	
+}
+ 
+ 
