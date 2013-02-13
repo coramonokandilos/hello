@@ -3,11 +3,13 @@
  */
 package org.xtext.example.qdsl.generator;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.ResourceSet;
+import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 import org.eclipse.xtext.generator.IGenerator;
 import org.eclipse.xtext.generator.JavaIoFileSystemAccess;
 import org.eclipse.xtext.util.CancelIndicator;
@@ -52,6 +54,18 @@ public class Main {
 		ResourceSet set = resourceSetProvider.get();
 		Resource resource = set.getResource(URI.createURI(string), true);
 
+		System.out.println(resource);
+		//xtext‚©‚çemf‚Ìxmi‚É•ÏŠ·‚·‚é•û–@
+		Resource xmiResource = new XMIResourceFactoryImpl().createResource(URI.createURI("model/YourOutputFile.xmi "));
+		xmiResource.getContents().add(resource.getContents().get(0));
+		try {
+			xmiResource.save(null);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//
+		
 		// validate the resource
 		List<Issue> list = validator.validate(resource, CheckMode.ALL,
 				CancelIndicator.NullImpl);
