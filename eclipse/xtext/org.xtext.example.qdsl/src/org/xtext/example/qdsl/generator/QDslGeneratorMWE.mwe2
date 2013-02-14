@@ -29,4 +29,9 @@ Workflow {
 			path = targetDir
 		}
 	}
+	
+	component = org.xtext.example.qdsl.generator.XmiExporter{
+		slot='model'
+	}
+	
 }

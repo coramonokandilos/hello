@@ -9,7 +9,6 @@ questions Test{
 		questionContent "how are you?"
 		AnswerType check_box
 		chooseFrom "Choise1" "Choise2" "Choise3"
-		
 	}
 	
 }

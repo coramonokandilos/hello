@@ -54,9 +54,9 @@ public class Main {
 		ResourceSet set = resourceSetProvider.get();
 		Resource resource = set.getResource(URI.createURI(string), true);
 
-		System.out.println(resource);
 		//xtext‚©‚çemf‚Ìxmi‚É•ÏŠ·‚·‚é•û–@
-		Resource xmiResource = new XMIResourceFactoryImpl().createResource(URI.createURI("model/YourOutputFile.xmi "));
+		String filePath="model/sample.xmi";
+		Resource xmiResource = new XMIResourceFactoryImpl().createResource(URI.createURI(filePath));
 		xmiResource.getContents().add(resource.getContents().get(0));
 		try {
 			xmiResource.save(null);

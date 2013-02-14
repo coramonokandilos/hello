@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<qDsl:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:qDsl="http://www.xtext.org/example/qdsl/QDsl" name="Test">
+  <questions name="Question1">
+    <contens qcontent="what is this"/>
+    <answerTypes atype="radio_button"/>
+    <chooseFroms>
+      <choise>Choise0</choise>
+      <choise>Choise1</choise>
+    </chooseFroms>
+  </questions>
+  <questions name="Question2">
+    <contens qcontent="how are you?"/>
+    <answerTypes atype="check_box"/>
+    <chooseFroms>
+      <choise>Choise1</choise>
+      <choise>Choise2</choise>
+      <choise>Choise3</choise>
+    </chooseFroms>
+  </questions>
+</qDsl:Model>
