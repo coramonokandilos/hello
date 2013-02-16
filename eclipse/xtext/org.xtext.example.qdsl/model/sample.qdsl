@@ -11,6 +11,14 @@ questions Test{
 		chooseFrom "Choise1" "Choise2" "Choise3"
 	}
 	
+	questionItem Question3{
+		questionContent "SampleQuestion"
+		AnswerType free_text 
+		chooseFrom "Choise"
+	} 
+	questionItem Question4 { 
+		questionContent "sample" 
+		AnswerType check_box
+		chooseFrom "free" "sample"
+	 } 
 }
- 
- 

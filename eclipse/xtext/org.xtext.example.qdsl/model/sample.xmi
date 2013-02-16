@@ -17,4 +17,19 @@
       <choise>Choise3</choise>
     </chooseFroms>
   </questions>
+  <questions name="Question3">
+    <contens qcontent="SampleQuestion"/>
+    <answerTypes atype="free_text"/>
+    <chooseFroms>
+      <choise>Choise</choise>
+    </chooseFroms>
+  </questions>
+  <questions name="Question4">
+    <contens qcontent="sample"/>
+    <answerTypes atype="check_box"/>
+    <chooseFroms>
+      <choise>free</choise>
+      <choise>sample</choise>
+    </chooseFroms>
+  </questions>
 </qDsl:Model>

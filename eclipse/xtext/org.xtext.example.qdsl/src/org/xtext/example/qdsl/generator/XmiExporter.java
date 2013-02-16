@@ -14,51 +14,51 @@ import org.eclipse.emf.mwe2.runtime.workflow.IWorkflowContext;
 public class XmiExporter implements IWorkflowComponent {
 
 	private final List<String> slotNames = newArrayList();
+	private String xmiPath;
+
+	public void setXmiPath(String xmiPath) {
+		this.xmiPath = xmiPath;
+	}
 
 	public void addSlot(String slot) {
 		this.slotNames.add(slot);
 	}
 
-	@Override
-	public void invoke(IWorkflowContext ctx) {
+	private Resource getResourceFromSlot(IWorkflowContext ctx) {
 		for (String slot : slotNames) {
-			System.out.println(slot);
 			Object object = ctx.get(slot);
 			if (object == null) {
-				throw new IllegalStateException("Slot '" + slot
-						+ "' was empty!");
+				throw new IllegalArgumentException("");
 			}
 			if (object instanceof Iterable) {
-				Iterable<?> iterable = (Iterable<?>) object;
-				for (Object object2 : iterable) {
-					if (!(object2 instanceof Resource)) {
-						throw new IllegalStateException(
-								"Slot contents was not a Resource but a '"
-										+ object.getClass().getSimpleName()
-										+ "'!");
+				Iterable<?> objects = (Iterable<?>) object;
+				for (Object object2 : objects) {
+					if (object2 instanceof Resource) {
+						return (Resource) object2;
 					}
-					//
-					saveXmi((Resource) object2);
-
 				}
 			} else if (object instanceof Resource) {
-				//
-				saveXmi((Resource) object);
-			} else {
-				throw new IllegalStateException(
-						"Slot contents was not a Resource but a '"
-								+ object.getClass().getSimpleName() + "'!");
+				return (Resource) object;
 			}
 		}
+		return null;
+	}
+
+	@Override
+	public void invoke(IWorkflowContext ctx) {
+		Resource resource = getResourceFromSlot(ctx);
+		if (resource == null) {
+			throw new IllegalArgumentException("");
+		}
+		saveXmi(resource);
 	}
 
 	private void saveXmi(Resource resource) {
-		String filePath = "model/sample.xmi";
+
 		Resource xmiResource = new XMIResourceFactoryImpl().createResource(URI
-				.createURI(filePath));
+				.createURI(xmiPath));
 		xmiResource.getContents().add(resource.getContents().get(0));
 		try {
-
 			xmiResource.save(null);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
