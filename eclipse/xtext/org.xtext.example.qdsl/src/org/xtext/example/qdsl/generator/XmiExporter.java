@@ -11,19 +11,39 @@ import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 import org.eclipse.emf.mwe2.runtime.workflow.IWorkflowComponent;
 import org.eclipse.emf.mwe2.runtime.workflow.IWorkflowContext;
 
+/**
+ * 
+ * @author kazuhiro
+ * 
+ */
 public class XmiExporter implements IWorkflowComponent {
 
+	/** */
 	private final List<String> slotNames = newArrayList();
+	/** */
 	private String xmiPath;
 
+	/**
+	 * 
+	 * @param xmiPath
+	 */
 	public void setXmiPath(String xmiPath) {
 		this.xmiPath = xmiPath;
 	}
 
+	/**
+	 * 
+	 * @param slot
+	 */
 	public void addSlot(String slot) {
 		this.slotNames.add(slot);
 	}
 
+	/**
+	 * 
+	 * @param ctx
+	 * @return
+	 */
 	private Resource getResourceFromSlot(IWorkflowContext ctx) {
 		for (String slot : slotNames) {
 			Object object = ctx.get(slot);
@@ -53,8 +73,12 @@ public class XmiExporter implements IWorkflowComponent {
 		saveXmi(resource);
 	}
 
+	/**
+	 * 
+	 * @param resource
+	 */
 	private void saveXmi(Resource resource) {
-
+		System.out.println(resource);
 		Resource xmiResource = new XMIResourceFactoryImpl().createResource(URI
 				.createURI(xmiPath));
 		xmiResource.getContents().add(resource.getContents().get(0));
