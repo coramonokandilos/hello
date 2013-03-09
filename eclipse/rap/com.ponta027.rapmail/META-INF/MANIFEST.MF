@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rapmail
+Bundle-SymbolicName: com.ponta027.rapmail; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.ponta027.rapmail.Activator
+Bundle-Vendor: PONTA027
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.rap.ui;bundle-version="[2.0.0,3.0.0)",
+ org.eclipse.rap.ui.forms;bundle-version="2.0.0"

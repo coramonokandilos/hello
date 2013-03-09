@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="mailapp.entrypoints"
+         point="org.eclipse.rap.ui.entrypoint">
+      <entrypoint
+            brandingId="com.ponta027.rapmail.branding"
+            path="/mail"
+            applicationId="com.ponta027.rapmail.mailapp"
+            id="mailapp.entrypoint">
+      </entrypoint>
+   </extension>
+   <extension
+         id="com.ponta027.rapmail.mailapp"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            thread="main"
+            cardinality="singleton-global"
+            visible="true">
+         <run
+               class="com.ponta027.rapmail.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RAP Perspective"
+            class="com.ponta027.rapmail.Perspective"
+            id="com.ponta027.rapmail.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="true"
+            name="Message"
+            icon="icons/sample2.gif"
+            class="com.ponta027.rapmail.views.View"
+            id="com.ponta027.rapmail.view">
+      </view>
+      <view
+            name="Mailboxes"
+            icon="icons/sample3.gif"
+            class="com.ponta027.rapmail.views.NavigationView"
+            id="com.ponta027.rapmail.navigationView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Mail"
+            id="com.ponta027.rapmail.category">
+      </category>
+      <command
+            name="Open Mailbox"
+            description="Opens a mailbox"
+            categoryId="com.ponta027.rapmail.category"
+            id="com.ponta027.rapmail.open">
+      </command>
+      <command
+            name="Open Message Dialog"
+            description="Opens a message dialog"
+            categoryId="com.ponta027.rapmail.category"
+            id="com.ponta027.rapmail.openMessage">
+      </command>
+      <command
+            categoryId="com.ponta027.rapmail.category"
+            description="This is Sample Command"
+            id="com.ponta027.rapmail.samplecommand"
+            name="sampleCommand">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.rap.ui.branding">
+      <branding
+            themeId="org.eclipse.rap.design.example.business.theme"
+            title="RAP Maildemo"
+            id="com.ponta027.rapmail.branding">
+         <presentationFactory
+               defaultLayoutId="org.eclipse.rap.design.example.business.layout"
+               name="Business PresentationFactory"
+               id="org.eclipse.rap.design.example.business.factory">
+            <defaultStackPresentation
+                  id="org.eclipse.rap.design.example.stack.view">
+            </defaultStackPresentation>
+         </presentationFactory>
+      </branding>
+   </extension>
+   <extension
+         point="org.eclipse.rap.ui.themes">
+      <theme
+            file="theme/sample.css"
+            id="com.ponta027.rapmail.theme"
+            name="MySampleTheme">
+      </theme>
+      <themeContribution
+            file="sample_extension.css"
+            themeId="com.ponta027.rapmail.theme">
+      </themeContribution>
+   </extension>
+	
+</plugin>
