@@ -41,15 +41,32 @@ class EcucParamParseR40(res:Path) {
         var param = new Param()
         for(bs <- elem.child){
             bs match{
-              case <SHORT-NAME>{name}</SHORT-NAME> => {param.name=name.text}
+              case <SHORT-NAME>{name}</SHORT-NAME> => {param.name=name.text;println(name)}
               case <DESC>{ u @ _* }</DESC> => { param.desc=bs.text}
               case <LOWER-MULTIPLICITY>{lower}</LOWER-MULTIPLICITY> => {param.lower=lower.text}
-              case <UPPER-MULTIPLICITY>{upper}</UPPER-MULTIPLICITY> => {param.upper = upper.text
-        			param.dump(depth,resource)
-                }
-              case <PARAMETERS>{parameters @ _*}</PARAMETERS> => {parameters foreach{parameter=>parseParameters(parameter,depth+1)}}
-              case <REFERENCES>{references @ _*}</REFERENCES> => {references foreach{reference => parseReferences(reference,depth+1)}}
-              case <SUB-CONTAINERS>{subcontainers @ _*}</SUB-CONTAINERS>=>{ subcontainers foreach { container => parseContainer(container,depth+1)} }
+              case <UPPER-MULTIPLICITY>{upper}</UPPER-MULTIPLICITY> => {param.upper = upper.text }
+              case <PARAMETERS>{parameters @ _*}</PARAMETERS> => {
+//        			param.paramType=elem.label
+			        param.dump(depth,resource)
+					parameters foreach{parameter=>parseParameters(parameter,depth)}
+					//parameters foreach{parameter=>parseParameters(parameter,depth+1)}
+					}
+              case <REFERENCES>{references @ _*}</REFERENCES> => {
+//      			param.paramType=elem.label
+			        param.dump(depth,resource)
+					references foreach{reference => parseReferences(reference,depth)}
+					//references foreach{reference => parseReferences(reference,depth+1)}
+					}
+              case <CHOICES>{choices @ _*}</CHOICES>=>{ 
+//        			param.paramType=elem.label
+			        param.dump(depth,resource)
+					choices foreach { container => parseContainer(container,depth+1)} 
+					}
+              case <SUB-CONTAINERS>{subcontainers @ _*}</SUB-CONTAINERS>=>{ 
+//        			param.paramType=elem.label
+			        param.dump(depth,resource)
+					subcontainers foreach { container => parseContainer(container,depth+1)} 
+					}
               case _ => {}
             }
         }
