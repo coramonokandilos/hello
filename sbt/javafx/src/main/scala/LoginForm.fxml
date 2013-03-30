@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="138.0" minWidth="100.0" prefHeight="138.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml" fx:controller="logindemo.LoginFormController">
+  <children>
+    <VBox AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+      <children>
+        <AnchorPane prefHeight="40.0">
+          <children>
+            <Label prefWidth="80.0" text="Account" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <TextField fx:id="accountField" onAction="#handleLogin" prefWidth="160.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+          </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="40.0">
+          <children>
+            <Label prefWidth="80.0" text="Password" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <PasswordField fx:id="passwordField" onAction="#handleLogin" prefWidth="160.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+          </children>
+        </AnchorPane>
+        <HBox alignment="TOP_RIGHT" prefHeight="30.0" spacing="14.0">
+          <children>
+            <Button onAction="#handleLogin" text="Login" />
+            <Button onAction="#handleCancel" text="Cancel" />
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+    <Label fx:id="resultLabel" textFill="RED" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="94.0">
+      <font>
+        <Font name="Arial Bold" size="16.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>
