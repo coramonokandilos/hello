@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="fta" version="8.1.0">
+  <ownedViewpoints name="fta">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="fta_diagram" initialisation="true" domainClass="fta.FTA">
+      <metamodel href="http://com.ponta027.fta#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Hazard" domainClass="fta.Hazard">
+          <style xsi:type="style:SquareDescription" labelSize="19" labelFormat="bold" showIcon="false" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Condition" domainClass="fta.Condition">
+          <conditionnalStyles predicateExpression="[self.GateKind = GateType::ORGate/]">
+            <style xsi:type="style:EllipseNodeDescription" showIcon="false" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="[self.GateKind = GateType::ANDGate/]">
+            <style xsi:type="style:CustomStyleDescription" showIcon="false" tooltipExpression="fta.customType1" labelPosition="node" resizeKind="NSEW" id="fta.customType1">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <nodeMappings name="Event" domainClass="fta.Event">
+          <style xsi:type="style:BundledImageDescription" showIcon="false" tooltipExpression="square" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+          <conditionnalStyles predicateExpression="[self.BaseCondition/]">
+            <style xsi:type="style:EllipseNodeDescription" showIcon="false" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <edgeMappings name="Conditions" sourceMapping="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Hazard']" targetMapping="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']" targetFinderExpression="feature:conditions">
+          <style sizeComputationExpression="2" routingStyle="tree">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="EventConditionLine" sourceMapping="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']" targetMapping="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']" targetFinderExpression="feature:condition">
+          <style sizeComputationExpression="2" routingStyle="tree">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ConditionEventLine" sourceMapping="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']" targetMapping="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']" targetFinderExpression="feature:events">
+          <style sizeComputationExpression="2" routingStyle="tree">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="create">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Event" nodeMappings="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="fta.Event" referenceName="diagrams">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['name'+container.eAllContents()->filter(Event)->size()/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Condition" nodeMappings="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="fta.Condition" referenceName="diagrams">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['Condition'+container.eAllContents()->filter(Condition)->size()/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="set">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ConditionEventLine" edgeMappings="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="events" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="EventCondition" edgeMappings="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="condition" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="HazardCondition" edgeMappings="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='Conditions']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="conditions" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool_1:PopupMenu" name="popup" precondition="[self.oclIsTypeOf(Event)/]">
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="基本事象に設定">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:SetValue" featureName="BaseCondition" valueExpression="[true/]"/>
+              </initialOperation>
+            </menuItemDescription>
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="中間事象に設定">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:SetValue" featureName="BaseCondition" valueExpression="[false/]"/>
+              </initialOperation>
+            </menuItemDescription>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_2:TreeDescription" name="fta" domainClass="fta.FTA">
+      <subItemMappings domainClass="fta.Hazard" semanticCandidatesExpression="feature:eAllContents">
+        <defaultStyle>
+          <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultStyle>
+        <subItemMappings name="conditions" domainClass="fta.Condition" semanticCandidatesExpression="feature:conditions">
+          <defaultStyle>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </defaultStyle>
+          <subItemMappings name="event" domainClass="fta.Event" semanticCandidatesExpression="feature:events">
+            <defaultStyle>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </defaultStyle>
+            <subItemMappings name="condition" domainClass="fta.Condition" semanticCandidatesExpression="feature:condition" reusedTreeItemMappings="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']" specialize="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']">
+              <defaultStyle>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </defaultStyle>
+              <subItemMappings name="event" domainClass="fta.Event" semanticCandidatesExpression="feature:events" reusedTreeItemMappings="//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']">
+                <defaultStyle>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                </defaultStyle>
+              </subItemMappings>
+            </subItemMappings>
+          </subItemMappings>
+        </subItemMappings>
+      </subItemMappings>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

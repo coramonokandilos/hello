@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ponta027.fta:FTA xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ponta027.fta="http://com.ponta027.fta">
+  <diagrams xsi:type="com.ponta027.fta:Hazard" name="XXXXが発生してしまった。" conditions="//@diagrams.1 //@diagrams.8"/>
+  <diagrams xsi:type="com.ponta027.fta:Condition" name="test" events="//@diagrams.3 //@diagrams.2"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="XXXXが発生" BaseCondition="true" condition="//@diagrams.9"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="name0"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="name0" BaseCondition="true" condition="//@diagrams.7"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="name6"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="name5" condition="//@diagrams.10"/>
+  <diagrams xsi:type="com.ponta027.fta:Condition" name="Condition2" events="//@diagrams.12"/>
+  <diagrams xsi:type="com.ponta027.fta:Condition" name="Condition3" events="//@diagrams.4 //@diagrams.5 //@diagrams.6"/>
+  <diagrams xsi:type="com.ponta027.fta:Condition" name="Condition4" events="//@diagrams.13"/>
+  <diagrams xsi:type="com.ponta027.fta:Condition" name="Condition5" events="//@diagrams.11 //@diagrams.18"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="ああああああああ" BaseCondition="true"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="name7" BaseCondition="true"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="AAAAAA" BaseCondition="true" condition="//@diagrams.14"/>
+  <diagrams xsi:type="com.ponta027.fta:Condition" name="Condition6" events="//@diagrams.15 //@diagrams.16 //@diagrams.17"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="テスト中間事象" BaseCondition="true"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="ほげほげ" BaseCondition="true"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="ふがふが" BaseCondition="true"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="name12" BaseCondition="true" condition="//@diagrams.20"/>
+  <diagrams xsi:type="com.ponta027.fta:Event" name="name13" BaseCondition="true"/>
+  <diagrams xsi:type="com.ponta027.fta:Condition" name="条件ほげほげ13" detail="" events="//@diagrams.19" GateKind="ANDGate"/>
+</com.ponta027.fta:FTA>

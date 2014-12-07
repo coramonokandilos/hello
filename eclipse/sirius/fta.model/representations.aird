@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ponta027.fta="http://com.ponta027.fta" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tree="http://www.eclipse.org/sirius/tree/1.0.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/tree/description/1.0.0 http://www.eclipse.org/sirius/tree/1.0.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_NUA3UHygEeS7FfAWoh-ogg" selectedViews="_jwJtMHygEeS7FfAWoh-ogg" version="8.1.1">
+  <models xmi:type="com.ponta027.fta:FTA" href="sample.fta#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_jwJtMHygEeS7FfAWoh-ogg" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_jxLA4HygEeS7FfAWoh-ogg" name="fta_diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_jxoT4HygEeS7FfAWoh-ogg" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_jxoT4XygEeS7FfAWoh-ogg" type="Sirius" element="_jxLA4HygEeS7FfAWoh-ogg" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_TTUR4HyhEeS7FfAWoh-ogg" type="2001" element="_TTQngHyhEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_TTU48HyhEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TTU48XyhEeS7FfAWoh-ogg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-c-gMH3UEeSP1ef_-HiODQ" type="3016" element="_-cpwEH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-c-gMX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-c-gMn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TTUR4XyhEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TTUR4nyhEeS7FfAWoh-ogg" x="68" y="84" width="65" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_D5X28HyiEeS7FfAWoh-ogg" type="2001" element="_D5RJQHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_D5YeAHyiEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_D5YeAXyiEeS7FfAWoh-ogg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_NkSp0HyyEeSTvN9ug4dShw" type="3004" element="_NjyTgHyyEeSTvN9ug4dShw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NkSp0XyyEeSTvN9ug4dShw" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NkSp0nyyEeSTvN9ug4dShw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_D5X28XyiEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D5X28nyiEeS7FfAWoh-ogg" x="176" y="84" width="47" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Eg370HyiEeS7FfAWoh-ogg" type="2001" element="_EgxOIHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_Eg3703yiEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Eg371HyiEeS7FfAWoh-ogg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dAVYH3UEeSP1ef_-HiODQ" type="3016" element="_-crlQH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-dAVYX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dAVYn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Eg370XyiEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Eg370nyiEeS7FfAWoh-ogg" x="268" y="84" width="47" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LVhfcHyiEeS7FfAWoh-ogg" type="2001" element="_LVYVgHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_LViGgHyiEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LViGgXyiEeS7FfAWoh-ogg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_NkYJYHyyEeSTvN9ug4dShw" type="3004" element="_Nj0IsHyyEeSTvN9ug4dShw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NkYJYXyyEeSTvN9ug4dShw" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NkYJYnyyEeSTvN9ug4dShw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LVhfcXyiEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LVhfcnyiEeS7FfAWoh-ogg" x="360" y="84" width="47" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P7XpMHyiEeS7FfAWoh-ogg" type="2001" element="_P7PtYHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_P7YQQHyiEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_P7YQQXyiEeS7FfAWoh-ogg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_NkaloHyyEeSTvN9ug4dShw" type="3004" element="_Nj0vwHyyEeSTvN9ug4dShw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NkaloXyyEeSTvN9ug4dShw" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NkalonyyEeSTvN9ug4dShw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_P7XpMXyiEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P7XpMnyiEeS7FfAWoh-ogg" x="448" y="84" width="47" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YpM8AHyiEeS7FfAWoh-ogg" type="2001" element="_YpDyEHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_YpOKIHyiEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_YpOKIXyiEeS7FfAWoh-ogg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_j0JAYH3UEeSP1ef_-HiODQ" type="3016" element="_jzqfQH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_j0JAYX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j0JAYn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YpM8AXyiEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YpM8AnyiEeS7FfAWoh-ogg" x="100" y="-4" width="35" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZrxMQHyiEeS7FfAWoh-ogg" type="2001" element="_ZrpQcHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_ZrxzUHyiEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZrxzUXyiEeS7FfAWoh-ogg" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_IuM4YH3VEeSP1ef_-HiODQ" type="3003" element="_ItzPwH3VEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_IuM4YX3VEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IuM4Yn3VEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZrxMQXyiEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZrxMQnyiEeS7FfAWoh-ogg" x="148" y="-140" width="184" height="74"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kica4HyiEeS7FfAWoh-ogg" type="2001" element="_kiRbwHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_kidB8HyiEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_kidB8XyiEeS7FfAWoh-ogg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YZhXMH3UEeSP1ef_-HiODQ" type="3016" element="_YY9WgH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_YZhXMX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YZhXMn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_kica4XyiEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kica4nyiEeS7FfAWoh-ogg" x="272" y="148" width="64" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_lV_-wHyiEeS7FfAWoh-ogg" type="2001" element="_lVx8UHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_lWBM4HyiEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lWBM4XyiEeS7FfAWoh-ogg" x="92" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YZjMYH3UEeSP1ef_-HiODQ" type="3016" element="_YY-koH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_YZjMYX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YZjMYn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_lV_-wXyiEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lV_-wnyiEeS7FfAWoh-ogg" x="312" y="-4" width="64" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Faf2AHyjEeS7FfAWoh-ogg" type="2001" element="_FaSaoHyjEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_FagdEHyjEeS7FfAWoh-ogg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_FagdEXyjEeS7FfAWoh-ogg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YZlooH3UEeSP1ef_-HiODQ" type="3016" element="_YY_LsH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_YZlooX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YZloon3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Faf2AXyjEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Faf2AnyjEeS7FfAWoh-ogg" x="60" y="152" width="64" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q8IkAHymEeSTvN9ug4dShw" type="2001" element="_q7pb0HymEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_q8JyIHymEeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_q8JyIXymEeSTvN9ug4dShw" x="269"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YZnd0H3UEeSP1ef_-HiODQ" type="3016" element="_YZAZ0H3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_YZnd0X3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YZnd0n3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q8IkAXymEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q8IkAnymEeSTvN9ug4dShw" x="408" y="140" width="64" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CPRd4HyoEeSTvN9ug4dShw" type="2001" element="_CO4cUHyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_CPSE8HyoEeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_CPSE8XyoEeSTvN9ug4dShw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dBjgH3UEeSP1ef_-HiODQ" type="3016" element="_-cszYH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-dBjgX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dBjgn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CPRd4XyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CPRd4nyoEeSTvN9ug4dShw" x="376" y="224" width="60" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_djutkHyoEeSTvN9ug4dShw" type="2001" element="_djUd4HyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_djvUoHyoEeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_djvUoXyoEeSTvN9ug4dShw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dDYsH3UEeSP1ef_-HiODQ" type="3016" element="_-ctacH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-dDYsX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dDYsn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_djutkXyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_djutknyoEeSTvN9ug4dShw" x="280" y="232" width="47" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_esaz8HyoEeSTvN9ug4dShw" type="2001" element="_er8S0HyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_esbbAHyoEeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_esbbAXyoEeSTvN9ug4dShw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dEm0H3UEeSP1ef_-HiODQ" type="3016" element="_-cuBgH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-dEm0X3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dEm0n3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_esaz8XyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esaz8nyoEeSTvN9ug4dShw" x="52" y="216" width="54" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mAs54HyoEeSTvN9ug4dShw" type="2001" element="_mAL8gHyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_mAs543yoEeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_mAs55HyoEeSTvN9ug4dShw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YZqhIH3UEeSP1ef_-HiODQ" type="3016" element="_YZBA4H3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_YZqhIX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YZqhIn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_mAs54XyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mAs54nyoEeSTvN9ug4dShw" x="32" y="304" width="64" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_r26fUHyoEeSTvN9ug4dShw" type="2001" element="_r2gPoHyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_r27GYHyoEeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r27GYXyoEeSTvN9ug4dShw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dF08H3UEeSP1ef_-HiODQ" type="3016" element="_-cuokH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-dF08X3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dF08n3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_r26fUXyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r26fUnyoEeSTvN9ug4dShw" x="164" y="452" width="60" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-VNxMHypEeSTvN9ug4dShw" type="2001" element="_-UmGIHypEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_-VO_UHypEeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_-VO_UXypEeSTvN9ug4dShw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dHDEH3UEeSP1ef_-HiODQ" type="3016" element="_-cvPoH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-dHDEX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dHDEn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-VNxMXypEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-VNxMnypEeSTvN9ug4dShw" x="-16" y="456" width="52" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-v9zgHypEeSTvN9ug4dShw" type="2001" element="_-vf5cHypEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_-v-akHypEeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_-v-akXypEeSTvN9ug4dShw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dIRMH3UEeSP1ef_-HiODQ" type="3016" element="_-cv2sH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-dIRMX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dIRMn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-v9zgXypEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-v9zgnypEeSTvN9ug4dShw" x="72" y="456" width="52" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uW1PoHyuEeSTvN9ug4dShw" type="2001" element="_uWX8oHyuEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_uW12sHyuEeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uW12sXyuEeSTvN9ug4dShw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dJfUH3UEeSP1ef_-HiODQ" type="3016" element="_-cwdwH3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-dJfUX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dJfUn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uW1PoXyuEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uW1PonyuEeSTvN9ug4dShw" x="484" y="220" width="52" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fQmMIHy1EeSTvN9ug4dShw" type="2001" element="_fQFOwHy1EeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_fQnaQHy1EeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fQnaQXy1EeSTvN9ug4dShw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dKtcH3UEeSP1ef_-HiODQ" type="3016" element="_-cxE0H3UEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-dKtcX3UEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dKtcn3UEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fQmMIXy1EeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fQmMIny1EeSTvN9ug4dShw" x="460" y="448" width="52" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fhiLIHy1EeSTvN9ug4dShw" type="2001" element="_fhEREHy1EeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_fhjZQHy1EeSTvN9ug4dShw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fhjZQXy1EeSTvN9ug4dShw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rKX_YH3aEeSP1ef_-HiODQ" type="3014" element="_rKEdYH3aEeSP1ef_-HiODQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rKX_YX3aEeSP1ef_-HiODQ" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rKX_Yn3aEeSP1ef_-HiODQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fhiLIXy1EeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fhiLIny1EeSTvN9ug4dShw" x="456" y="360" width="60" height="40"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_jxoT4nygEeS7FfAWoh-ogg"/>
+          <edges xmi:type="notation:Edge" xmi:id="_EBCvwHyjEeS7FfAWoh-ogg" type="4001" element="_EA8CEHyjEeS7FfAWoh-ogg" source="_YpM8AHyiEeS7FfAWoh-ogg" target="_D5X28HyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_EBCvxHyjEeS7FfAWoh-ogg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EBCvxXyjEeS7FfAWoh-ogg" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_EBDW0HyjEeS7FfAWoh-ogg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EBDW0XyjEeS7FfAWoh-ogg" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_EBDW0nyjEeS7FfAWoh-ogg" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EBDW03yjEeS7FfAWoh-ogg" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_EBCvwXyjEeS7FfAWoh-ogg" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_EBCvwnyjEeS7FfAWoh-ogg" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EBCvw3yjEeS7FfAWoh-ogg" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EBDW1HyjEeS7FfAWoh-ogg" id="(0.4857142857142857,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EBD94HyjEeS7FfAWoh-ogg" id="(0.48936170212765956,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_Bqy0onykEeSaU5fhP6H9Fg" type="4001" element="_BqerkHykEeSaU5fhP6H9Fg" source="_YpM8AHyiEeS7FfAWoh-ogg" target="_TTUR4HyhEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_BqzbsHykEeSaU5fhP6H9Fg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqzbsXykEeSaU5fhP6H9Fg" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BqzbsnykEeSaU5fhP6H9Fg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bqzbs3ykEeSaU5fhP6H9Fg" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BqzbtHykEeSaU5fhP6H9Fg" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqzbtXykEeSaU5fhP6H9Fg" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bqy0o3ykEeSaU5fhP6H9Fg" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_Bqy0pHykEeSaU5fhP6H9Fg" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bqy0pXykEeSaU5fhP6H9Fg" points="[0, 0, 116, 60]$[-116, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bq0CwHykEeSaU5fhP6H9Fg" id="(0.4857142857142857,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bq0p0HykEeSaU5fhP6H9Fg" id="(0.49230769230769234,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_cE_bgHykEeSTvN9ug4dShw" type="4001" element="_cEynMHykEeSTvN9ug4dShw" source="_TTUR4HyhEeS7FfAWoh-ogg" target="_Faf2AHyjEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_cFGwQHykEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cFGwQXykEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_cFH-YHykEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cFH-YXykEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_cFIlcHykEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cFIlcXykEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_cE_bgXykEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_cE_bgnykEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cE_bg3ykEeSTvN9ug4dShw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cFLowHykEeSTvN9ug4dShw" id="(0.49230769230769234,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cFLowXykEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_gkUGgHykEeSTvN9ug4dShw" type="4001" element="_gkEO4HykEeSTvN9ug4dShw" source="_ZrxMQHyiEeS7FfAWoh-ogg" target="_YpM8AHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_gkUtkHykEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gkUtkXykEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gkUtknykEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gkUtk3ykEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gkVUoHykEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gkVUoXykEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_gkUGgXykEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_gkUGgnykEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gkUGg3ykEeSTvN9ug4dShw" points="[0, 0, 91, 60]$[-91, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gkV7sHykEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gkV7sXykEeSTvN9ug4dShw" id="(0.4857142857142857,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_yVlIsHykEeSTvN9ug4dShw" type="4001" element="_yVJq4HykEeSTvN9ug4dShw" source="_lV_-wHyiEeS7FfAWoh-ogg" target="_Eg370HyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_yVmW0HykEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yVmW0XykEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_yVmW0nykEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yVmW03ykEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_yVm94HykEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yVm94XykEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_yVlIsXykEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_yVlIsnykEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yVlIs3ykEeSTvN9ug4dShw" points="[0, 0, 76, 60]$[-76, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syv70HywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syv70XywEeSTvN9ug4dShw" id="(0.48936170212765956,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_6yu7MHykEeSTvN9ug4dShw" type="4001" element="_6yV5oHykEeSTvN9ug4dShw" source="_Eg370HyiEeS7FfAWoh-ogg" target="_kica4HyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_6yviQHykEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yviQXykEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6ywJUHykEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ywJUXykEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6ywJUnykEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ywJU3ykEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_6yu7MXykEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_6yu7MnykEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6yu7M3ykEeSTvN9ug4dShw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sypOIHywEeSTvN9ug4dShw" id="(0.48936170212765956,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syp1MHywEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_YhMvMHylEeSTvN9ug4dShw" type="4001" element="_Yg50QHylEeSTvN9ug4dShw" source="_ZrxMQHyiEeS7FfAWoh-ogg" target="_lV_-wHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_YhNWQHylEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YhNWQXylEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YhNWQnylEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YhNWQ3ylEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YhNWRHylEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YhNWRXylEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_YhMvMXylEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_YhMvMnylEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YhMvM3ylEeSTvN9ug4dShw" points="[0, 0, -92, 60]$[92, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syrqYHywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syrqYXywEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_aY1mQHylEeSTvN9ug4dShw" type="4001" element="_aYgPEHylEeSTvN9ug4dShw" source="_lV_-wHyiEeS7FfAWoh-ogg" target="_LVhfcHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_aY20YHylEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aY20YXylEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_aY20YnylEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aY20Y3ylEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_aY20ZHylEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aY20ZXylEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_aY1mQXylEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_aY1mQnylEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aY1mQ3ylEeSTvN9ug4dShw" points="[0, 0, -31, 60]$[31, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sywi4XywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aY3bcHylEeSTvN9ug4dShw" id="(0.48936170212765956,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_bJlGsHylEeSTvN9ug4dShw" type="4001" element="_bJSLwHylEeSTvN9ug4dShw" source="_lV_-wHyiEeS7FfAWoh-ogg" target="_P7XpMHyiEeS7FfAWoh-ogg">
+            <children xmi:type="notation:Node" xmi:id="_bJltwHylEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bJltwXylEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_bJltwnylEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bJltw3ylEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_bJmU0HylEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bJmU0XylEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_bJlGsXylEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_bJlGsnylEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bJlGs3ylEeSTvN9ug4dShw" points="[0, 0, -138, 60]$[138, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sywi4HywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bJmU0nylEeSTvN9ug4dShw" id="(0.48936170212765956,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_BnGqoHyoEeSTvN9ug4dShw" type="4001" element="_Bmj4EHyoEeSTvN9ug4dShw" source="_P7XpMHyiEeS7FfAWoh-ogg" target="_q8IkAHymEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_BnGqpHyoEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BnGqpXyoEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BnHRsHyoEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BnHRsXyoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BnHRsnyoEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BnHRs3yoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_BnGqoXyoEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_BnGqonyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BnGqo3yoEeSTvN9ug4dShw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syqcQHywEeSTvN9ug4dShw" id="(0.48936170212765956,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syqcQXywEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_DBNRIHyoEeSTvN9ug4dShw" type="4001" element="_DAp3gHyoEeSTvN9ug4dShw" source="_q8IkAHymEeSTvN9ug4dShw" target="_CPRd4HyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_DBOfQHyoEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DBOfQXyoEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_DBPGUHyoEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DBPGUXyoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_DBPtYHyoEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DBPtYXyoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_DBNRIXyoEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_DBNRInyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DBNRI3yoEeSTvN9ug4dShw" points="[0, 0, -58, 60]$[58, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sys4gXywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DBQUcHyoEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_eNI28HyoEeSTvN9ug4dShw" type="4001" element="_eMpuwHyoEeSTvN9ug4dShw" source="_kica4HyiEeS7FfAWoh-ogg" target="_djutkHyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_eNJeAHyoEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eNJeAXyoEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_eNKFEHyoEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eNKFEXyoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_eNKFEnyoEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eNKFE3yoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_eNI28XyoEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_eNI28nyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eNI283yoEeSTvN9ug4dShw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syrDUHywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syrDUXywEeSTvN9ug4dShw" id="(0.48936170212765956,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_fWfrsHyoEeSTvN9ug4dShw" type="4001" element="_fWDm0HyoEeSTvN9ug4dShw" source="_Faf2AHyjEeS7FfAWoh-ogg" target="_esaz8HyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_fWfrtHyoEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fWfrtXyoEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fWgSwHyoEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fWgSwXyoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fWgSwnyoEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fWgSw3yoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_fWfrsXyoEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_fWfrsnyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fWfrs3yoEeSTvN9ug4dShw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syp1MXywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fWgSxHyoEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_m1wSkHyoEeSTvN9ug4dShw" type="4001" element="_m1P8QHyoEeSTvN9ug4dShw" source="_esaz8HyoEeSTvN9ug4dShw" target="_mAs54HyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_m1w5oHyoEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m1w5oXyoEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_m1w5onyoEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m1w5o3yoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_m1xgsHyoEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m1xgsXyoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_m1wSkXyoEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_m1wSknyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m1wSk3yoEeSTvN9ug4dShw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syvUwHywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syvUwXywEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_sdeJAHyoEeSTvN9ug4dShw" type="4001" element="_sc46MHyoEeSTvN9ug4dShw" source="_mAs54HyoEeSTvN9ug4dShw" target="_r26fUHyoEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_sdewEHyoEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdewEXyoEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sdewEnyoEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdewE3yoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sdewFHyoEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdewFXyoEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_sdeJAXyoEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_sdeJAnyoEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdeJA3yoEeSTvN9ug4dShw" points="[0, 0, 116, 60]$[-116, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syonEXywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sdewFnyoEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="__tnukHypEeSTvN9ug4dShw" type="4001" element="__tH_UHypEeSTvN9ug4dShw" source="_mAs54HyoEeSTvN9ug4dShw" target="_-VNxMHypEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="__toVoHypEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__toVoXypEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__toVonypEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__toVo3ypEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__toVpHypEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__toVpXypEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="__tnukXypEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="__tnuknypEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__tnuk3ypEeSTvN9ug4dShw" points="[0, 0, -112, 60]$[112, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syonEHywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__toVpnypEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AX9sEHyqEeSTvN9ug4dShw" type="4001" element="_AXYdQHyqEeSTvN9ug4dShw" source="_mAs54HyoEeSTvN9ug4dShw" target="_-v9zgHypEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_AX9sFHyqEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AX9sFXyqEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AX-TIHyqEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AX-TIXyqEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AX-TInyqEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AX-TI3yqEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AX9sEXyqEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AX9sEnyqEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AX9sE3yqEeSTvN9ug4dShw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_syoAAHywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AX-TJHyqEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_K-5m0HywEeSTvN9ug4dShw" type="4001" element="_K-YCYHywEeSTvN9ug4dShw" source="_q8IkAHymEeSTvN9ug4dShw" target="_uW1PoHyuEeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_K-6N4HywEeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K-6N4XywEeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_K-6N4nywEeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K-6N43ywEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_K-608HywEeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K-608XywEeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_K-5m0XywEeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_K-5m0nywEeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K-5m03ywEeSTvN9ug4dShw" points="[0, 0, 58, 60]$[-58, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sysRcHywEeSTvN9ug4dShw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sys4gHywEeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_imFhQHy1EeSTvN9ug4dShw" type="4001" element="_ilXIgHy1EeSTvN9ug4dShw" source="_uW1PoHyuEeSTvN9ug4dShw" target="_fhiLIHy1EeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_imGIUHy1EeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_imGIUXy1EeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_imGIUny1EeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_imGIU3y1EeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_imGIVHy1EeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_imGIVXy1EeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_imFhQXy1EeSTvN9ug4dShw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_imFhQny1EeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_imFhQ3y1EeSTvN9ug4dShw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bdzZ0H3PEeSMOrrMvRl67g" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_imGvYHy1EeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_jkVSMHy1EeSTvN9ug4dShw" type="4001" element="_jjx4kHy1EeSTvN9ug4dShw" source="_fhiLIHy1EeSTvN9ug4dShw" target="_fQmMIHy1EeSTvN9ug4dShw">
+            <children xmi:type="notation:Node" xmi:id="_jkV5QHy1EeSTvN9ug4dShw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkV5QXy1EeSTvN9ug4dShw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jkV5Qny1EeSTvN9ug4dShw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkV5Q3y1EeSTvN9ug4dShw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jkV5RHy1EeSTvN9ug4dShw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkV5RXy1EeSTvN9ug4dShw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_jkVSMXy1EeSTvN9ug4dShw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_jkVSMny1EeSTvN9ug4dShw" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jkVSM3y1EeSTvN9ug4dShw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bd3EMH3PEeSMOrrMvRl67g" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jkWgUHy1EeSTvN9ug4dShw" id="(0.5,1.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TTQngHyhEeS7FfAWoh-ogg" name="XXXXが発生" outgoingEdges="_cEynMHykEeSTvN9ug4dShw" incomingEdges="_BqerkHykEeSaU5fhP6H9Fg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.2"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-cpwEH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-cpwEX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-cpwEn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ1Q4H3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_D5RJQHyiEeS7FfAWoh-ogg" name="name0" tooltipText="square" incomingEdges="_EA8CEHyjEeS7FfAWoh-ogg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.3"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.3"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_NjyTgHyyEeSTvN9ug4dShw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_NjyTgXyyEeSTvN9ug4dShw"/>
+          <description xmi:type="style:BundledImageDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_NjyTgnyyEeSTvN9ug4dShw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_Tdt7UHyyEeSTvN9ug4dShw" red="204" green="242" blue="166"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EgxOIHyiEeS7FfAWoh-ogg" name="name0" outgoingEdges="_6yV5oHykEeSTvN9ug4dShw" incomingEdges="_yVJq4HykEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.4"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.4"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-crlQH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-crlQX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-crlQn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ2fAH3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_LVYVgHyiEeS7FfAWoh-ogg" name="name6" tooltipText="square" incomingEdges="_aYgPEHylEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.5"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.5"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Nj0IsHyyEeSTvN9ug4dShw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_Nj0IsXyyEeSTvN9ug4dShw"/>
+          <description xmi:type="style:BundledImageDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_Nj0IsnyyEeSTvN9ug4dShw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_TdwXkHyyEeSTvN9ug4dShw" red="204" green="242" blue="166"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_P7PtYHyiEeS7FfAWoh-ogg" name="name5" tooltipText="square" outgoingEdges="_Bmj4EHyoEeSTvN9ug4dShw" incomingEdges="_bJSLwHylEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.6"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.6"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Nj0vwHyyEeSTvN9ug4dShw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_Nj0vwXyyEeSTvN9ug4dShw"/>
+          <description xmi:type="style:BundledImageDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_Nj0vwnyyEeSTvN9ug4dShw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_TdxlsHyyEeSTvN9ug4dShw" red="204" green="242" blue="166"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_CO4cUHyoEeSTvN9ug4dShw" name="ああああああああ" incomingEdges="_DAp3gHyoEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.11"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.11"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-cszYH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-cszYX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-cszYn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ3tIH3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_djUd4HyoEeSTvN9ug4dShw" name="name7" incomingEdges="_eMpuwHyoEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.12"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.12"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-ctacH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-ctacX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-ctacn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ4UMH3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_er8S0HyoEeSTvN9ug4dShw" name="AAAAAA" outgoingEdges="_m1P8QHyoEeSTvN9ug4dShw" incomingEdges="_fWDm0HyoEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.13"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.13"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-cuBgH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-cuBgX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-cuBgn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ4UMX3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_r2gPoHyoEeSTvN9ug4dShw" name="テスト中間事象" incomingEdges="_sc46MHyoEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.15"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.15"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-cuokH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-cuokX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-cuokn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ47QH3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_-UmGIHypEeSTvN9ug4dShw" name="ほげほげ" incomingEdges="__tH_UHypEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.16"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.16"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-cvPoH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-cvPoX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-cvPon3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ5iUH3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_-vf5cHypEeSTvN9ug4dShw" name="ふがふが" incomingEdges="_AXYdQHyqEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.17"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.17"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-cv2sH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-cv2sX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-cv2sn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ5iUX3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_uWX8oHyuEeSTvN9ug4dShw" name="name12" outgoingEdges="_ilXIgHy1EeSTvN9ug4dShw" incomingEdges="_K-YCYHywEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.18"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.18"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-cwdwH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-cwdwX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-cwdwn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ6JYH3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_fQFOwHy1EeSTvN9ug4dShw" name="name13" tooltipText="square" incomingEdges="_jjx4kHy1EeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.19"/>
+        <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.19"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-cxE0H3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-cxE0X3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-cxE0n3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_DJ6wcH3VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Event']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YpDyEHyiEeS7FfAWoh-ogg" name="test" outgoingEdges="_EA8CEHyjEeS7FfAWoh-ogg _BqerkHykEeSaU5fhP6H9Fg" incomingEdges="_gkEO4HykEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.1"/>
+        <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_jzqfQH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jzqfQX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jzqfQn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_jzqfQ33UEeSP1ef_-HiODQ" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_kiRbwHyiEeS7FfAWoh-ogg" name="Condition2" outgoingEdges="_eMpuwHyoEeSTvN9ug4dShw" incomingEdges="_6yV5oHykEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.7"/>
+        <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.7"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_YY9WgH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_YY9WgX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_YY9Wgn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_bi0qcH3UEeSP1ef_-HiODQ" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lVx8UHyiEeS7FfAWoh-ogg" name="Condition3" outgoingEdges="_yVJq4HykEeSTvN9ug4dShw _aYgPEHylEeSTvN9ug4dShw _bJSLwHylEeSTvN9ug4dShw" incomingEdges="_Yg50QHylEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.8"/>
+        <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.8"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_YY-koH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_YY-koX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_YY-kon3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_bi1RgH3UEeSP1ef_-HiODQ" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FaSaoHyjEeS7FfAWoh-ogg" name="Condition4" outgoingEdges="_fWDm0HyoEeSTvN9ug4dShw" incomingEdges="_cEynMHykEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.9"/>
+        <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.9"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_YY_LsH3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_YY_LsX3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_YY_Lsn3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_bi14kH3UEeSP1ef_-HiODQ" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_q7pb0HymEeSTvN9ug4dShw" name="Condition5" outgoingEdges="_DAp3gHyoEeSTvN9ug4dShw _K-YCYHywEeSTvN9ug4dShw" incomingEdges="_Bmj4EHyoEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.10"/>
+        <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.10"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_YZAZ0H3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_YZAZ0X3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_YZAZ0n3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_bi2foH3UEeSP1ef_-HiODQ" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_mAL8gHyoEeSTvN9ug4dShw" name="Condition6" outgoingEdges="_sc46MHyoEeSTvN9ug4dShw __tH_UHypEeSTvN9ug4dShw _AXYdQHyqEeSTvN9ug4dShw" incomingEdges="_m1P8QHyoEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.14"/>
+        <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.14"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_YZBA4H3UEeSP1ef_-HiODQ" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_YZBA4X3UEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']/@conditionnalStyles.0/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_YZBA4n3UEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_bi3GsH3UEeSP1ef_-HiODQ" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_fhEREHy1EeSTvN9ug4dShw" name="条件ほげほげ13" tooltipText="fta.customType1" outgoingEdges="_jjx4kHy1EeSTvN9ug4dShw" incomingEdges="_ilXIgHy1EeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.20"/>
+        <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.20"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_rKEdYH3aEeSP1ef_-HiODQ" showIcon="false" labelPosition="node" id="fta.customType1">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_rKEdYX3aEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:CustomStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']/@conditionnalStyles.1/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_rKEdYn3aEeSP1ef_-HiODQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ZrpQcHyiEeS7FfAWoh-ogg" name="XXXXが発生してしまった。" outgoingEdges="_gkEO4HykEeSTvN9ug4dShw _Yg50QHylEeSTvN9ug4dShw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="com.ponta027.fta:Hazard" href="sample.fta#//@diagrams.0"/>
+        <semanticElements xmi:type="com.ponta027.fta:Hazard" href="sample.fta#//@diagrams.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_ItzPwH3VEeSP1ef_-HiODQ" labelSize="12" labelFormat="bold" showIcon="false" labelPosition="node">
+          <customFeatures>labelSize</customFeatures>
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ItzPwX3VEeSP1ef_-HiODQ"/>
+          <description xmi:type="style:SquareDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Hazard']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ItzPwn3VEeSP1ef_-HiODQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_ItzPw33VEeSP1ef_-HiODQ" red="194" green="239" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@nodeMappings[name='Hazard']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_EA8CEHyjEeS7FfAWoh-ogg" sourceNode="_YpDyEHyiEeS7FfAWoh-ogg" targetNode="_D5RJQHyiEeS7FfAWoh-ogg">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_EA8pIHyjEeS7FfAWoh-ogg" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_EA8pIXyjEeS7FfAWoh-ogg" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_EA8pInyjEeS7FfAWoh-ogg">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_EA8pI3yjEeS7FfAWoh-ogg"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BqerkHykEeSaU5fhP6H9Fg" sourceNode="_YpDyEHyiEeS7FfAWoh-ogg" targetNode="_TTQngHyhEeS7FfAWoh-ogg">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3oY9wHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3oY9wXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3oY9wnyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3oY9w3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_cEynMHykEeSTvN9ug4dShw" sourceNode="_TTQngHyhEeS7FfAWoh-ogg" targetNode="_FaSaoHyjEeS7FfAWoh-ogg">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cMor4Hy1EeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_cMor4Xy1EeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cMor4ny1EeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_cMor43y1EeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_gkEO4HykEeSTvN9ug4dShw" sourceNode="_ZrpQcHyiEeS7FfAWoh-ogg" targetNode="_YpDyEHyiEeS7FfAWoh-ogg">
+        <target xmi:type="com.ponta027.fta:Hazard" href="sample.fta#//@diagrams.0"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cMndwHy1EeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='Conditions']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_cMndwXy1EeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cMndwny1EeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_cMndw3y1EeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='Conditions']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_yVJq4HykEeSTvN9ug4dShw" sourceNode="_lVx8UHyiEeS7FfAWoh-ogg" targetNode="_EgxOIHyiEeS7FfAWoh-ogg">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.8"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3or4sHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3or4sXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3or4snyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3or4s3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_6yV5oHykEeSTvN9ug4dShw" sourceNode="_EgxOIHyiEeS7FfAWoh-ogg" targetNode="_kiRbwHyiEeS7FfAWoh-ogg">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cMpS8Hy1EeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_cMpS8Xy1EeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cMpS8ny1EeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_cMpS83y1EeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Yg50QHylEeSTvN9ug4dShw" sourceNode="_ZrpQcHyiEeS7FfAWoh-ogg" targetNode="_lVx8UHyiEeS7FfAWoh-ogg">
+        <target xmi:type="com.ponta027.fta:Hazard" href="sample.fta#//@diagrams.0"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cMoE0Hy1EeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='Conditions']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_cMoE0Xy1EeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cMoE0ny1EeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_cMoE03y1EeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='Conditions']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aYgPEHylEeSTvN9ug4dShw" sourceNode="_lVx8UHyiEeS7FfAWoh-ogg" targetNode="_LVYVgHyiEeS7FfAWoh-ogg">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.8"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3o5UEHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3o5UEXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3o5UEnyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3o5UE3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_bJSLwHylEeSTvN9ug4dShw" sourceNode="_lVx8UHyiEeS7FfAWoh-ogg" targetNode="_P7PtYHyiEeS7FfAWoh-ogg">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.8"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3o8-cHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3o8-cXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3o8-cnyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3o8-c3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Bmj4EHyoEeSTvN9ug4dShw" sourceNode="_P7PtYHyiEeS7FfAWoh-ogg" targetNode="_q7pb0HymEeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.6"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cMp6AHy1EeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_cMp6AXy1EeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cMp6Any1EeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_cMp6A3y1EeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_DAp3gHyoEeSTvN9ug4dShw" sourceNode="_q7pb0HymEeSTvN9ug4dShw" targetNode="_CO4cUHyoEeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.10"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3pHWgHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3pHWgXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3pHWgnyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3pHWg3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_eMpuwHyoEeSTvN9ug4dShw" sourceNode="_kiRbwHyiEeS7FfAWoh-ogg" targetNode="_djUd4HyoEeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.7"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3pLn8HyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3pLn8XyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3pLn8nyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3pLn83yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_fWDm0HyoEeSTvN9ug4dShw" sourceNode="_FaSaoHyjEeS7FfAWoh-ogg" targetNode="_er8S0HyoEeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.9"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3pQgcHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3pQgcXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3pQgcnyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3pQgc3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_m1P8QHyoEeSTvN9ug4dShw" sourceNode="_er8S0HyoEeSTvN9ug4dShw" targetNode="_mAL8gHyoEeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.13"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cMqhEHy1EeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_cMqhEXy1EeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cMqhEny1EeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_cMqhE3y1EeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_sc46MHyoEeSTvN9ug4dShw" sourceNode="_mAL8gHyoEeSTvN9ug4dShw" targetNode="_r2gPoHyoEeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.14"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3pZqYHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3pZqYXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3pZqYnyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3pZqY3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="__tH_UHypEeSTvN9ug4dShw" sourceNode="_mAL8gHyoEeSTvN9ug4dShw" targetNode="_-UmGIHypEeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.14"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3pdUwHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3pdUwXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3pdUwnyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3pdUw3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AXYdQHyqEeSTvN9ug4dShw" sourceNode="_mAL8gHyoEeSTvN9ug4dShw" targetNode="_-vf5cHypEeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.14"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3pg_IHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3pg_IXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3pg_InyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3pg_I3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_K-YCYHywEeSTvN9ug4dShw" sourceNode="_q7pb0HymEeSTvN9ug4dShw" targetNode="_uWX8oHyuEeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.10"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3pkpgHyyEeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_3pkpgXyyEeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3pkpgnyyEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_3pkpg3yyEeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ilXIgHy1EeSTvN9ug4dShw" sourceNode="_uWX8oHyuEeSTvN9ug4dShw" targetNode="_fhEREHy1EeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.18"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ilXIgXy1EeSTvN9ug4dShw" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_ilXIgny1EeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ilXIg3y1EeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ilXIhHy1EeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='EventConditionLine']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_jjx4kHy1EeSTvN9ug4dShw" sourceNode="_fhEREHy1EeSTvN9ug4dShw" targetNode="_fQFOwHy1EeSTvN9ug4dShw">
+        <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.20"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_jjx4kXy1EeSTvN9ug4dShw" size="2">
+          <customFeatures>routingStyle</customFeatures>
+          <description xmi:type="style:EdgeStyleDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_jjx4kny1EeSTvN9ug4dShw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_jjx4k3y1EeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jjyfoHy1EeSTvN9ug4dShw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer/@edgeMappings[name='ConditionEventLine']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_jxLA4nygEeS7FfAWoh-ogg"/>
+      <activatedLayers xmi:type="description_1:Layer" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta_diagram']/@defaultLayer"/>
+      <target xmi:type="com.ponta027.fta:FTA" href="sample.fta#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="tree:DTree" xmi:id="_eI9XAHynEeSTvN9ug4dShw" name="new fta">
+      <target xmi:type="com.ponta027.fta:FTA" href="sample.fta#/"/>
+      <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_eI9XAXynEeSTvN9ug4dShw" name="XXXXが発生してしまった。" expanded="true">
+        <target xmi:type="com.ponta027.fta:Hazard" href="sample.fta#//@diagrams.0"/>
+        <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_uoPz8HynEeSTvN9ug4dShw" name="test" expanded="true">
+          <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.1"/>
+          <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_N9agAHyoEeSTvN9ug4dShw" name="name0">
+            <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.3"/>
+            <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.3"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_N9bHEHyoEeSTvN9ug4dShw">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_N9bHEnyoEeSTvN9ug4dShw"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9bHEXyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_N9bHE3yoEeSTvN9ug4dShw" name="XXXXが発生" expanded="true">
+            <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.2"/>
+            <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_N9buInyoEeSTvN9ug4dShw" name="Condition4" expanded="true">
+              <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.9"/>
+              <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_fWbaQHyoEeSTvN9ug4dShw" name="AAAAAA" expanded="true">
+                <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.13"/>
+                <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_m1raEHyoEeSTvN9ug4dShw" name="Condition6" expanded="true">
+                  <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.14"/>
+                  <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_sdZ3kHyoEeSTvN9ug4dShw" name="テスト中間事象">
+                    <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.15"/>
+                    <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.15"/>
+                    <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_sdZ3kXyoEeSTvN9ug4dShw">
+                      <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_sdZ3k3yoEeSTvN9ug4dShw"/>
+                      <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_sdZ3knyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                    </ownedStyle>
+                    <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']/@subItemMappings[name='event']"/>
+                  </ownedTreeItems>
+                  <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="__thA4HypEeSTvN9ug4dShw" name="ほげほげ">
+                    <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.16"/>
+                    <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.16"/>
+                    <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="__thA4XypEeSTvN9ug4dShw">
+                      <labelColor xmi:type="viewpoint:RGBValues" xmi:id="__thA43ypEeSTvN9ug4dShw"/>
+                      <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="__thA4nypEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                    </ownedStyle>
+                    <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']/@subItemMappings[name='event']"/>
+                  </ownedTreeItems>
+                  <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_AX4MgHyqEeSTvN9ug4dShw" name="ふがふが">
+                    <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.17"/>
+                    <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.17"/>
+                    <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_AX4zkHyqEeSTvN9ug4dShw">
+                      <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_AX4zknyqEeSTvN9ug4dShw"/>
+                      <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_AX4zkXyqEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                    </ownedStyle>
+                    <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']/@subItemMappings[name='event']"/>
+                  </ownedTreeItems>
+                  <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.14"/>
+                  <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_m1raEXyoEeSTvN9ug4dShw">
+                    <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_m1sBIHyoEeSTvN9ug4dShw"/>
+                    <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_m1raEnyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                  </ownedStyle>
+                  <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']"/>
+                </ownedTreeItems>
+                <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.13"/>
+                <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_fWbaQXyoEeSTvN9ug4dShw">
+                  <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fWbaQ3yoEeSTvN9ug4dShw"/>
+                  <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_fWbaQnyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']/@subItemMappings[name='event']"/>
+              </ownedTreeItems>
+              <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.9"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_N9cVMHyoEeSTvN9ug4dShw">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_N9cVMnyoEeSTvN9ug4dShw"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9cVMXyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']"/>
+            </ownedTreeItems>
+            <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.2"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_N9bHFHyoEeSTvN9ug4dShw">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_N9buIXyoEeSTvN9ug4dShw"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9buIHyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']"/>
+          </ownedTreeItems>
+          <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.1"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_uoPz8XynEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_uoPz83ynEeSTvN9ug4dShw"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uoPz8nynEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_uoQbAHynEeSTvN9ug4dShw" name="Condition3" expanded="true">
+          <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.8"/>
+          <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_N9cVM3yoEeSTvN9ug4dShw" name="name0" expanded="true">
+            <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.4"/>
+            <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_N9eKY3yoEeSTvN9ug4dShw" name="Condition2">
+              <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.7"/>
+              <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_eNDXYHyoEeSTvN9ug4dShw" name="name7">
+                <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.12"/>
+                <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.12"/>
+                <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_eNDXYXyoEeSTvN9ug4dShw">
+                  <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_eNDXY3yoEeSTvN9ug4dShw"/>
+                  <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_eNDXYnyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']/@subItemMappings[name='event']"/>
+              </ownedTreeItems>
+              <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.7"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_N9excHyoEeSTvN9ug4dShw">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_N9excnyoEeSTvN9ug4dShw"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9excXyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']"/>
+            </ownedTreeItems>
+            <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.4"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_N9c8QHyoEeSTvN9ug4dShw">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_N9c8QnyoEeSTvN9ug4dShw"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9c8QXyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_N9djUHyoEeSTvN9ug4dShw" name="name6">
+            <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.5"/>
+            <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.5"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_N9djUXyoEeSTvN9ug4dShw">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_N9djU3yoEeSTvN9ug4dShw"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9djUnyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_N9djVHyoEeSTvN9ug4dShw" name="name5" expanded="true">
+            <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.6"/>
+            <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_N9exc3yoEeSTvN9ug4dShw" name="Condition5" expanded="true">
+              <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.10"/>
+              <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_bjQqoHyoEeSTvN9ug4dShw" name="ああああああああ">
+                <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.11"/>
+                <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.11"/>
+                <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_bjRRsHyoEeSTvN9ug4dShw">
+                  <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_bjRRsnyoEeSTvN9ug4dShw"/>
+                  <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_bjRRsXyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']/@subItemMappings[name='event']"/>
+              </ownedTreeItems>
+              <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_K-2jgHywEeSTvN9ug4dShw" name="name12">
+                <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.18"/>
+                <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_imBP0Hy1EeSTvN9ug4dShw" name="Condition7">
+                  <target xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.20"/>
+                  <ownedTreeItems xmi:type="tree:DTreeItem" xmi:id="_jkRn0Hy1EeSTvN9ug4dShw" name="name13">
+                    <target xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.19"/>
+                    <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.19"/>
+                    <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_jkRn0Xy1EeSTvN9ug4dShw">
+                      <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jkRn03y1EeSTvN9ug4dShw"/>
+                      <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_jkRn0ny1EeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                    </ownedStyle>
+                    <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']/@subItemMappings[name='event']"/>
+                  </ownedTreeItems>
+                  <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.20"/>
+                  <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_imBP0Xy1EeSTvN9ug4dShw">
+                    <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_imBP03y1EeSTvN9ug4dShw"/>
+                    <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_imBP0ny1EeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                  </ownedStyle>
+                  <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']"/>
+                </ownedTreeItems>
+                <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.18"/>
+                <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_K-2jgXywEeSTvN9ug4dShw">
+                  <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_K-2jg3ywEeSTvN9ug4dShw"/>
+                  <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_K-2jgnywEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']/@subItemMappings[name='event']"/>
+              </ownedTreeItems>
+              <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.10"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_N9exdHyoEeSTvN9ug4dShw">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_N9fYgHyoEeSTvN9ug4dShw"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9exdXyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']/@subItemMappings[name='condition']"/>
+            </ownedTreeItems>
+            <semanticElements xmi:type="com.ponta027.fta:Event" href="sample.fta#//@diagrams.6"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_N9eKYHyoEeSTvN9ug4dShw">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_N9eKYnyoEeSTvN9ug4dShw"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9eKYXyoEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']/@subItemMappings[name='event']"/>
+          </ownedTreeItems>
+          <semanticElements xmi:type="com.ponta027.fta:Condition" href="sample.fta#//@diagrams.8"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_uoQbAXynEeSTvN9ug4dShw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_uoQbA3ynEeSTvN9ug4dShw"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uoQbAnynEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']/@subItemMappings[name='conditions']"/>
+        </ownedTreeItems>
+        <semanticElements xmi:type="com.ponta027.fta:Hazard" href="sample.fta#//@diagrams.0"/>
+        <ownedStyle xmi:type="tree:TreeItemStyle" xmi:id="_eI9XAnynEeSTvN9ug4dShw">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_eI9XA3ynEeSTvN9ug4dShw"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_eI9XBHynEeSTvN9ug4dShw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_2:TreeItemMapping" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']/@subItemMappings[name='']"/>
+      </ownedTreeItems>
+      <description xmi:type="description_2:TreeDescription" href="fta.odesign#//@ownedViewpoints[name='fta']/@ownedRepresentations[name='fta']"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="fta.odesign#//@ownedViewpoints[name='fta']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
