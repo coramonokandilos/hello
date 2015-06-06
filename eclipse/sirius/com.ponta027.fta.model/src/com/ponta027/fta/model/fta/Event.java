@@ -11,7 +11,7 @@ package com.ponta027.fta.model.fta;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link com.ponta027.fta.model.fta.Event#isBaseCondition <em>Base Condition</em>}</li>
+ *   <li>{@link com.ponta027.fta.model.fta.Event#isBaseEvent <em>Base Event</em>}</li>
  *   <li>{@link com.ponta027.fta.model.fta.Event#getCondition <em>Condition</em>}</li>
  * </ul>
  * </p>
@@ -22,30 +22,30 @@ package com.ponta027.fta.model.fta;
  */
 public interface Event extends Diagram {
 	/**
-	 * Returns the value of the '<em><b>Base Condition</b></em>' attribute.
+	 * Returns the value of the '<em><b>Base Event</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Base Condition</em>' attribute isn't clear,
+	 * If the meaning of the '<em>Base Event</em>' attribute isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Base Condition</em>' attribute.
-	 * @see #setBaseCondition(boolean)
-	 * @see com.ponta027.fta.model.fta.FtaPackage#getEvent_BaseCondition()
+	 * @return the value of the '<em>Base Event</em>' attribute.
+	 * @see #setBaseEvent(boolean)
+	 * @see com.ponta027.fta.model.fta.FtaPackage#getEvent_BaseEvent()
 	 * @model required="true"
 	 * @generated
 	 */
-	boolean isBaseCondition();
+	boolean isBaseEvent();
 
 	/**
-	 * Sets the value of the '{@link com.ponta027.fta.model.fta.Event#isBaseCondition <em>Base Condition</em>}' attribute.
+	 * Sets the value of the '{@link com.ponta027.fta.model.fta.Event#isBaseEvent <em>Base Event</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Base Condition</em>' attribute.
-	 * @see #isBaseCondition()
+	 * @param value the new value of the '<em>Base Event</em>' attribute.
+	 * @see #isBaseEvent()
 	 * @generated
 	 */
-	void setBaseCondition(boolean value);
+	void setBaseEvent(boolean value);
 
 	/**
 	 * Returns the value of the '<em><b>Condition</b></em>' reference.

@@ -214,7 +214,7 @@ public class FtaPackageImpl extends EPackageImpl implements FtaPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getEvent_BaseCondition() {
+	public EAttribute getEvent_BaseEvent() {
 		return (EAttribute)eventEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -303,7 +303,7 @@ public class FtaPackageImpl extends EPackageImpl implements FtaPackage {
 		createEReference(hazardEClass, HAZARD__CONDITIONS);
 
 		eventEClass = createEClass(EVENT);
-		createEAttribute(eventEClass, EVENT__BASE_CONDITION);
+		createEAttribute(eventEClass, EVENT__BASE_EVENT);
 		createEReference(eventEClass, EVENT__CONDITION);
 
 		conditionEClass = createEClass(CONDITION);
@@ -359,7 +359,7 @@ public class FtaPackageImpl extends EPackageImpl implements FtaPackage {
 		initEReference(getHazard_Conditions(), this.getCondition(), null, "conditions", null, 0, -1, Hazard.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(eventEClass, Event.class, "Event", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getEvent_BaseCondition(), ecorePackage.getEBoolean(), "BaseCondition", null, 1, 1, Event.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getEvent_BaseEvent(), ecorePackage.getEBoolean(), "BaseEvent", null, 1, 1, Event.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getEvent_Condition(), this.getCondition(), null, "condition", null, 0, 1, Event.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(conditionEClass, Condition.class, "Condition", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);

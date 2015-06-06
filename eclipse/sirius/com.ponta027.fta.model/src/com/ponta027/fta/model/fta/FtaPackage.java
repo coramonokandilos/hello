@@ -251,13 +251,13 @@ public interface FtaPackage extends EPackage {
 	int EVENT__ID = DIAGRAM__ID;
 
 	/**
-	 * The feature id for the '<em><b>Base Condition</b></em>' attribute.
+	 * The feature id for the '<em><b>Base Event</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int EVENT__BASE_CONDITION = DIAGRAM_FEATURE_COUNT + 0;
+	int EVENT__BASE_EVENT = DIAGRAM_FEATURE_COUNT + 0;
 
 	/**
 	 * The feature id for the '<em><b>Condition</b></em>' reference.
@@ -467,15 +467,15 @@ public interface FtaPackage extends EPackage {
 	EClass getEvent();
 
 	/**
-	 * Returns the meta object for the attribute '{@link com.ponta027.fta.model.fta.Event#isBaseCondition <em>Base Condition</em>}'.
+	 * Returns the meta object for the attribute '{@link com.ponta027.fta.model.fta.Event#isBaseEvent <em>Base Event</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Base Condition</em>'.
-	 * @see com.ponta027.fta.model.fta.Event#isBaseCondition()
+	 * @return the meta object for the attribute '<em>Base Event</em>'.
+	 * @see com.ponta027.fta.model.fta.Event#isBaseEvent()
 	 * @see #getEvent()
 	 * @generated
 	 */
-	EAttribute getEvent_BaseCondition();
+	EAttribute getEvent_BaseEvent();
 
 	/**
 	 * Returns the meta object for the reference '{@link com.ponta027.fta.model.fta.Event#getCondition <em>Condition</em>}'.
@@ -634,12 +634,12 @@ public interface FtaPackage extends EPackage {
 		EClass EVENT = eINSTANCE.getEvent();
 
 		/**
-		 * The meta object literal for the '<em><b>Base Condition</b></em>' attribute feature.
+		 * The meta object literal for the '<em><b>Base Event</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute EVENT__BASE_CONDITION = eINSTANCE.getEvent_BaseCondition();
+		EAttribute EVENT__BASE_EVENT = eINSTANCE.getEvent_BaseEvent();
 
 		/**
 		 * The meta object literal for the '<em><b>Condition</b></em>' reference feature.

@@ -45,26 +45,26 @@ public class EventItemProvider extends DiagramItemProvider {
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
-			addBaseConditionPropertyDescriptor(object);
+			addBaseEventPropertyDescriptor(object);
 			addConditionPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
 
 	/**
-	 * This adds a property descriptor for the Base Condition feature.
+	 * This adds a property descriptor for the Base Event feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addBaseConditionPropertyDescriptor(Object object) {
+	protected void addBaseEventPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Event_BaseCondition_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Event_BaseCondition_feature", "_UI_Event_type"),
-				 FtaPackage.Literals.EVENT__BASE_CONDITION,
+				 getString("_UI_Event_BaseEvent_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Event_BaseEvent_feature", "_UI_Event_type"),
+				 FtaPackage.Literals.EVENT__BASE_EVENT,
 				 true,
 				 false,
 				 false,
@@ -133,7 +133,7 @@ public class EventItemProvider extends DiagramItemProvider {
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(Event.class)) {
-			case FtaPackage.EVENT__BASE_CONDITION:
+			case FtaPackage.EVENT__BASE_EVENT:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}

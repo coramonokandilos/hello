@@ -23,7 +23,7 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fta.ecore#//Hazard/conditions"/>
     </genClasses>
     <genClasses ecoreClass="fta.ecore#//Event">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fta.ecore#//Event/BaseCondition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fta.ecore#//Event/BaseEvent"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fta.ecore#//Event/condition"/>
     </genClasses>
     <genClasses ecoreClass="fta.ecore#//Condition">

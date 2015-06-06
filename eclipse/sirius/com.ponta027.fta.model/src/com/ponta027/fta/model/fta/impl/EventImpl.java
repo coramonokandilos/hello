@@ -17,7 +17,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link com.ponta027.fta.model.fta.impl.EventImpl#isBaseCondition <em>Base Condition</em>}</li>
+ *   <li>{@link com.ponta027.fta.model.fta.impl.EventImpl#isBaseEvent <em>Base Event</em>}</li>
  *   <li>{@link com.ponta027.fta.model.fta.impl.EventImpl#getCondition <em>Condition</em>}</li>
  * </ul>
  * </p>
@@ -26,24 +26,24 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  */
 public class EventImpl extends DiagramImpl implements Event {
 	/**
-	 * The default value of the '{@link #isBaseCondition() <em>Base Condition</em>}' attribute.
+	 * The default value of the '{@link #isBaseEvent() <em>Base Event</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #isBaseCondition()
+	 * @see #isBaseEvent()
 	 * @generated
 	 * @ordered
 	 */
-	protected static final boolean BASE_CONDITION_EDEFAULT = false;
+	protected static final boolean BASE_EVENT_EDEFAULT = false;
 
 	/**
-	 * The cached value of the '{@link #isBaseCondition() <em>Base Condition</em>}' attribute.
+	 * The cached value of the '{@link #isBaseEvent() <em>Base Event</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #isBaseCondition()
+	 * @see #isBaseEvent()
 	 * @generated
 	 * @ordered
 	 */
-	protected boolean baseCondition = BASE_CONDITION_EDEFAULT;
+	protected boolean baseEvent = BASE_EVENT_EDEFAULT;
 
 	/**
 	 * The cached value of the '{@link #getCondition() <em>Condition</em>}' reference.
@@ -79,8 +79,8 @@ public class EventImpl extends DiagramImpl implements Event {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public boolean isBaseCondition() {
-		return baseCondition;
+	public boolean isBaseEvent() {
+		return baseEvent;
 	}
 
 	/**
@@ -88,11 +88,11 @@ public class EventImpl extends DiagramImpl implements Event {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setBaseCondition(boolean newBaseCondition) {
-		boolean oldBaseCondition = baseCondition;
-		baseCondition = newBaseCondition;
+	public void setBaseEvent(boolean newBaseEvent) {
+		boolean oldBaseEvent = baseEvent;
+		baseEvent = newBaseEvent;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, FtaPackage.EVENT__BASE_CONDITION, oldBaseCondition, baseCondition));
+			eNotify(new ENotificationImpl(this, Notification.SET, FtaPackage.EVENT__BASE_EVENT, oldBaseEvent, baseEvent));
 	}
 
 	/**
@@ -141,8 +141,8 @@ public class EventImpl extends DiagramImpl implements Event {
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case FtaPackage.EVENT__BASE_CONDITION:
-				return isBaseCondition();
+			case FtaPackage.EVENT__BASE_EVENT:
+				return isBaseEvent();
 			case FtaPackage.EVENT__CONDITION:
 				if (resolve) return getCondition();
 				return basicGetCondition();
@@ -158,8 +158,8 @@ public class EventImpl extends DiagramImpl implements Event {
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case FtaPackage.EVENT__BASE_CONDITION:
-				setBaseCondition((Boolean)newValue);
+			case FtaPackage.EVENT__BASE_EVENT:
+				setBaseEvent((Boolean)newValue);
 				return;
 			case FtaPackage.EVENT__CONDITION:
 				setCondition((Condition)newValue);
@@ -176,8 +176,8 @@ public class EventImpl extends DiagramImpl implements Event {
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case FtaPackage.EVENT__BASE_CONDITION:
-				setBaseCondition(BASE_CONDITION_EDEFAULT);
+			case FtaPackage.EVENT__BASE_EVENT:
+				setBaseEvent(BASE_EVENT_EDEFAULT);
 				return;
 			case FtaPackage.EVENT__CONDITION:
 				setCondition((Condition)null);
@@ -194,8 +194,8 @@ public class EventImpl extends DiagramImpl implements Event {
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case FtaPackage.EVENT__BASE_CONDITION:
-				return baseCondition != BASE_CONDITION_EDEFAULT;
+			case FtaPackage.EVENT__BASE_EVENT:
+				return baseEvent != BASE_EVENT_EDEFAULT;
 			case FtaPackage.EVENT__CONDITION:
 				return condition != null;
 		}
@@ -212,8 +212,8 @@ public class EventImpl extends DiagramImpl implements Event {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (BaseCondition: ");
-		result.append(baseCondition);
+		result.append(" (BaseEvent: ");
+		result.append(baseEvent);
 		result.append(')');
 		return result.toString();
 	}
